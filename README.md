@@ -1,5 +1,9 @@
 ## Gulp Bootstrap
-Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
+Boilerplate customizado com Bootstrap, Font Awesome e Owl Carousel.
+
+* [Bootstrap 3.3.6](http://getbootstrap.com/) 
+* [Font Awesome 4.6.3](http://fontawesome.io/) 
+* [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/) 
 
 ## Dependencies
 
@@ -12,7 +16,7 @@ Boilerplate para automatizar tarefas comuns no desenvolvimento Front-End.
 * [gulp-uglify 1.5.3](https://www.npmjs.com/package/gulp-uglify)
 * [gulp-watch 4.3.6](https://www.npmjs.com/package/gulp-watch)
 
-## Workflow: Gulp Boilerplate
+## Workflow: Gulp Bootstrap
 ```
 Gulp Boilerplate/
 │
@@ -40,7 +44,7 @@ Um pré requisito é que você tenha instalado o [Gulp](http://gulpjs.com/) em s
 
 ```
 1. Clone o repositório
-    git clone git@github.com:theandersonn/gulp-boilerplate.git
+    git clone git@github.com:theandersonn/gulp-bootstrap.git
 ```
 
 ```
@@ -54,8 +58,8 @@ Um pré requisito é que você tenha instalado o [Gulp](http://gulpjs.com/) em s
 ```
 
 ## Questões e dúvidas
-Caso tenha alguma dificuldade em utilizar o Gulp Boilerplate ou deseje saber algum aspecto da configuração atual, abra uma [issue](https://github.com/theandersonn/gulp-boilerplate/issues/new) e explique a sua dificuldade.
+Caso tenha alguma dificuldade em utilizar o Gulp Boilerplate ou deseje saber algum aspecto da configuração atual, abra uma [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) e explique a sua dificuldade.
 
 ## License
 
-[MIT](https://github.com/theandersonn/gulp-boilerplate/blob/master/LICENSE-MIT.md) © [Anderson Nascimento](https://github.com/theandersonn)
+[MIT](https://github.com/theandersonn/gulp-bootstrap/blob/master/LICENSE-MIT.md) © [Anderson Nascimento](https://github.com/theandersonn)
