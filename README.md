@@ -42,7 +42,6 @@ Gulp Boilerplate/
 ## Como utilizar
 *Um pré requisito é que você tenha instalado o [Gulp](http://gulpjs.com/) em seu computador*.
 
-```
 1. Clone o repositório
     git clone git@github.com:theandersonn/gulp-bootstrap.git
 
@@ -54,7 +53,6 @@ Gulp Boilerplate/
 4. **gulp cssmin** minifica o *all.css* gerando o arquivo *all.min.css*
 
 5. **gulp jsmin** minifica o *all.js* gerando o arquivo *all.min.js*     
-```
 
 ## Questões e dúvidas
 Caso tenha alguma dificuldade em utilizar o Gulp Boilerplate ou deseje saber algum aspecto da configuração atual, abra uma [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) e explique a sua dificuldade.
