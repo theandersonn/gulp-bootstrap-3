@@ -5,7 +5,7 @@ Boilerplate customizado com Bootstrap, Font Awesome e Owl Carousel.
 * [Font Awesome 4.6.3](http://fontawesome.io/) 
 * [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/) 
 
-## Dependencies
+## Dependências
 
 * [gulp 3.9.0](http://gulpjs.com) 
 * [gulp-concat 2.6.0](https://www.npmjs.com/package/gulp-concat)
@@ -16,7 +16,7 @@ Boilerplate customizado com Bootstrap, Font Awesome e Owl Carousel.
 * [gulp-uglify 1.5.3](https://www.npmjs.com/package/gulp-uglify)
 * [gulp-watch 4.3.6](https://www.npmjs.com/package/gulp-watch)
 
-## Workflow: Gulp Bootstrap
+## Workflow
 ```
 Gulp Boilerplate/
 │
@@ -40,21 +40,20 @@ Gulp Boilerplate/
 ```
 
 ## Como utilizar
-Um pré requisito é que você tenha instalado o [Gulp](http://gulpjs.com/) em seu computador.
+*Um pré requisito é que você tenha instalado o [Gulp](http://gulpjs.com/) em seu computador*.
 
 ```
 1. Clone o repositório
     git clone git@github.com:theandersonn/gulp-bootstrap.git
-```
 
-```
-2. Instale as depências
+2. Instale as dependências
     npm install
-```
 
-```
-3. Start gulp
-    gulp // Aciona a task default
+3. **gulp** executa simultaneamente as tarefas *sass* e *concatjs* que compilam os arquivos *all.css* e *all.js* para o desenvolvimento em localhost
+
+4. **gulp cssmin** minifica o *all.css* gerando o arquivo *all.min.css*
+
+5. **gulp jsmin** minifica o *all.js* gerando o arquivo *all.min.js*     
 ```
 
 ## Questões e dúvidas

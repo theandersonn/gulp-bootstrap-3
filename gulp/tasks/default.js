@@ -4,7 +4,7 @@
 // plugins
 var gulp = require('gulp');
 
-gulp.task('default', ['sass', 'cssmin'], function(){
+gulp.task('default', ['sass', 'concatjs'], function(){
     gulp.watch('../assets/sass/**/*.scss', ['sass']);
-    gulp.watch('../assets/css/*.css', ['cssmin']);
+    gulp.watch('../assets/js/**/*.js', ['concatjs']);
 });
