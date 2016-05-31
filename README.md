@@ -42,17 +42,19 @@ Gulp Boilerplate/
 ## Como utilizar
 *Um pré requisito é que você tenha instalado o [Gulp](http://gulpjs.com/) em seu computador*.
 
+```
 1. Clone o repositório
     git clone git@github.com:theandersonn/gulp-bootstrap.git
 
 2. Instale as dependências
     npm install
 
-3. **gulp** executa simultaneamente as tarefas *sass* e *concatjs* que compilam os arquivos *all.css* e *all.js* para o desenvolvimento em localhost
+3. gulp executa simultaneamente as tarefas sass e concatjs que compilam os arquivos all.css e all.js para o desenvolvimento em localhost
 
-4. **gulp cssmin** minifica o *all.css* gerando o arquivo *all.min.css*
+4. gulp cssmin minifica o all.css gerando o arquivo all.min.css
 
-5. **gulp jsmin** minifica o *all.js* gerando o arquivo *all.min.js*     
+5. gulp jsmin minifica o all.js gerando o arquivo all.min.js     
+```
 
 ## Questões e dúvidas
 Caso tenha alguma dificuldade em utilizar o Gulp Boilerplate ou deseje saber algum aspecto da configuração atual, abra uma [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) e explique a sua dificuldade.
