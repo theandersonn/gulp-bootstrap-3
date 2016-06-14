@@ -19,11 +19,11 @@
   },
   "author": {
     "name": "Anderson Nascimento",
-    "url": "http://www.andersonn.com.br"
+    "url": "http://www.theandersonn.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/theandersonn/gulp-boilerplate"
+    "url": "https://github.com/theandersonn/gulp-bootstrap"
   },
   "license": "MIT"
 }
