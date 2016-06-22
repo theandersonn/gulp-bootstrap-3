@@ -1,13 +1,14 @@
 var functions = {
 	init: function(){
 		this.sliderHome();
+		this.responsiveYouTube();
 		this.removeAtributosImg();
 	},
 
 	// Slider home
 	// -------------------------
 	sliderHome: function(){
-		jQuery('.owl-carousel').owlCarousel({
+		jQuery('#owl-carousel').owlCarousel({
 			items: 1,
 	        autoplaySpeed: 1000,
 	        autoplayTimeout: 7000,
@@ -15,7 +16,16 @@ var functions = {
 	        nav: false,
 	        loop: true  
 		})
-    },	
+    },
+
+	// YouTube Responsivo
+	// ------------------------- 
+	responsiveYouTube: function(){
+		var all_oembed_videos = jQuery("iframe[src*='youtube'], iframe[src*='vimeo']");
+		all_oembed_videos.each(function(){
+			jQuery(this).removeAttr('height').removeAttr('width').wrap( "<div class='embed-container'></div>" );
+		});
+	},	    	
 
 	// Remove Atributos img
 	// -------------------------
