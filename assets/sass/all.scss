@@ -26,6 +26,7 @@
 @import "bootstrap/mixins";
 
 // Core variables and mixins @theandersonn
+@import 'helpers/functions';
 @import 'helpers/variables';
 @import 'helpers/mixins';
 
@@ -34,8 +35,7 @@
 @import "bootstrap/print";
 @import "bootstrap/glyphicons";
 
-// Reset and dependencies @theandersonn
-@import 'base/reset';
+// Dependencies @theandersonn
 @import 'base/fonts';
 @import 'components/owl-carousel';
 @import 'components/owl-theme';
@@ -88,6 +88,7 @@
 /************************************************************************************!
  *  @theandersonn \o/
  *  https://github.com/theandersonn
- ************************************************************************************/
+ ************************************************************************************/ 
+@import 'base/reset';
 @import 'base/main';
 @import 'base/media-queries';

@@ -1,0 +1,12 @@
+/* ----------------------------------------------
+    FUNCTIONS
+---------------------------------------------- */
+/* Calcula porcentagem de margens e paddings */
+@function calc-mg($target-px, $context) {
+  @return ($target-px / $context) * 100%;
+}
+
+/* Converte as fontes para em */
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 1em;
+}
