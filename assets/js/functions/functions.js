@@ -23,7 +23,7 @@ var functions = {
 	responsiveYouTube: function(){
 		var all_oembed_videos = jQuery("iframe[src*='youtube'], iframe[src*='vimeo']");
 		all_oembed_videos.each(function(){
-			jQuery(this).removeAttr('height').removeAttr('width').wrap( "<div class='embed-container'></div>" );
+			jQuery(this).removeAttr('height').removeAttr('width').wrap( "<div class='embed-responsive embed-responsive-16by9'></div>" );
 		});
 	},	    	
 
