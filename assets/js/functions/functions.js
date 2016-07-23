@@ -1,9 +1,23 @@
 var functions = {
 	init: function(){
+		this.lightboxFancy();
 		this.sliderHome();
 		this.responsiveYouTube();
 		this.removeAtributosImg();
 	},
+
+
+	// Lightbox
+	// -------------------------
+	lightboxFancy: function(){
+		jQuery('.fancybox-media').fancybox({
+			openEffect  : 'none',
+			closeEffect : 'none',
+			helpers 	: {
+			media 		: {}
+			}
+		});
+	},		
 
 	// Slider home
 	// -------------------------
