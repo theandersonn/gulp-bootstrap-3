@@ -7,6 +7,8 @@
 }
 
 /* Converte as fontes para em */
-@function calc-em($target-px, $context) {
-  @return ($target-px / $context) * 1em;
+$browser-context: 16; // Default
+
+@function calc-em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em
 }
