@@ -1,7 +1,8 @@
 ## Gulp Bootstrap
-Boilerplate customizado com Bootstrap, Font Awesome e Owl Carousel.
+Boilerplate customizado com Bootstrap, FancyBox, Font Awesome e Owl Carousel.
 
 * [Bootstrap 3.3.6](http://getbootstrap.com/) 
+* [FancyBox 2.1.5](http://fancyapps.com/fancybox/) 
 * [Font Awesome 4.6.3](http://fontawesome.io/) 
 * [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/) 
 
