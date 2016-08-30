@@ -9,7 +9,7 @@ gulp.task('concatjs', function() {
 	return gulp.src([
 
         // LIBS
-        '../assets/js/libs/jquery-2.2.4.js'
+        '../assets/js/libs/jquery-2.2.4.js',
   		
         // BOOTSTRAP    
         '../assets/js/bootstrap/affix.js',
