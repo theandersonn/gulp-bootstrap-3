@@ -4,10 +4,12 @@ Boilerplate customizado com Bootstrap, FancyBox, Font Awesome e Owl Carousel.
 * [Bootstrap 3.3.6](http://getbootstrap.com/) 
 * [FancyBox 2.1.5](http://fancyapps.com/fancybox/) 
 * [Font Awesome 4.6.3](http://fontawesome.io/) 
-* [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/) 
+* [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/)
+
+## Bibliotecas 
+* [jQuery Core 2.2.4](https://code.jquery.com/)
 
 ## Dependências
-
 * [gulp 3.9.0](http://gulpjs.com) 
 * [gulp-concat 2.6.0](https://www.npmjs.com/package/gulp-concat)
 * [gulp-autoprefixer 3.1.0](https://www.npmjs.com/package/gulp-autoprefixer)
