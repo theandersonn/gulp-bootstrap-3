@@ -1,11 +1,10 @@
 /*--------------------------------------------------------------
-    PERFOMS TAKS SASS, CONCATJS, CLEAN AND CLONE
+    PERFOMS TAKS SASS AND CONCATJS
 --------------------------------------------------------------*/
 // plugins
 var gulp = require('gulp');
 
-gulp.task('src', ['sass', 'concatjs', 'clone'], function(){
+gulp.task('src', ['sass', 'concatjs'], function(){
     gulp.watch('../assets/src/sass/**/*.scss', ['sass']);
     gulp.watch('../assets/src/js/**/*.js', ['concatjs']);
-    gulp.watch('../assets/src/fonts/**/*', ['clone']);
 });

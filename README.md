@@ -19,6 +19,7 @@ Boilerplate customized with Bootstrap, Font Awesome and Owl Carousel.
 * [gulp-clean 0.3.2](https://www.npmjs.com/package/gulp-clean)
 * [gulp-concat 2.6.0](https://www.npmjs.com/package/gulp-concat)
 * [gulp-cssmin 0.1.7](https://www.npmjs.com/package/gulp-cssmin)
+* [gulp-imagemin 3.0.3](https://www.npmjs.com/package/gulp-imagemin)
 * [gulp-rename 1.2.2](https://www.npmjs.com/package/gulp-rename)
 * [gulp-sass 2.3.1](https://www.npmjs.com/package/gulp-sass)
 * [gulp-uglify 1.5.3](https://www.npmjs.com/package/gulp-uglify)
@@ -70,10 +71,12 @@ Gulp Bootstrap/
 - gulp concatjs (Concatenate all .js)
 - gulp cssmin (Minify all.css)
 - gulp jsmin (Minify all.js)
-- gulp clean (Clean the folder 'dist/fonts')
+- gulp imagemin (Minify images)
+- gulp clean-fonts (Clean the folder 'dist/fonts')
+- gulp clean-images (Clean the folder 'dist/images')
 - gulp clone (Clone floder 'src/fonts' to 'dist/fonts')
-- gulp src (performs tasks sass, concatjs, clean and clone )
-- gulp dist (performs tasks cssmin and jsmin)
+- gulp src (performs tasks sass and concatjs)
+- gulp dist (performs tasks cssmin, jsmin, clone and imagemin)
 
 ## Questions
 If you have any difficulty using the Gulp Boilerplate or would like some aspect of the current configuration, open an [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) and explain your difficulty.
