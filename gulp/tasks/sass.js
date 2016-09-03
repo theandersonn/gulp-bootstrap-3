@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------
-    EXECUTA SASS
+    COMPILES ALL FILES _SCSS
 --------------------------------------------------------------*/
 // plugins
 'use strict';
@@ -11,7 +11,7 @@ var gutil = require('gulp-util');
 
 // tasks
 gulp.task('sass', function () {
-  gulp.src('../assets/sass/**/*.scss')
+  gulp.src('../assets/src/sass/**/*.scss')
 
     .pipe(plumber(function(error) {
         gutil.log(gutil.colors.red(error.message));
@@ -19,5 +19,5 @@ gulp.task('sass', function () {
     }))
 
     .pipe(sass().on('Erro de Sintaxe', sass.logError))
-    .pipe(gulp.dest('../assets/css/'));
+    .pipe(gulp.dest('../assets/src/css/'));
 });

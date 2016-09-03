@@ -1,18 +1,19 @@
 ## Gulp Bootstrap
-Boilerplate customizado com Bootstrap, FancyBox, Font Awesome e Owl Carousel.
+Boilerplate customized with Bootstrap, Font Awesome and Owl Carousel.
 
 * [Bootstrap 3.3.6](http://getbootstrap.com/) 
 * [FancyBox 2.1.5](http://fancyapps.com/fancybox/) 
 * [Font Awesome 4.6.3](http://fontawesome.io/) 
 * [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/)
 
-## Bibliotecas 
-* [jQuery Core 2.2.4](https://code.jquery.com/)
+## Libraries 
+* [jQuery 2.2.4](https://code.jquery.com/)
 
-## Dependências
+## Dependences
 * [gulp 3.9.0](http://gulpjs.com) 
-* [gulp-concat 2.6.0](https://www.npmjs.com/package/gulp-concat)
 * [gulp-autoprefixer 3.1.0](https://www.npmjs.com/package/gulp-autoprefixer)
+* [gulp-clean 0.3.2](https://www.npmjs.com/package/gulp-clean)
+* [gulp-concat 2.6.0](https://www.npmjs.com/package/gulp-concat)
 * [gulp-cssmin 0.1.7](https://www.npmjs.com/package/gulp-cssmin)
 * [gulp-rename 1.2.2](https://www.npmjs.com/package/gulp-rename)
 * [gulp-sass 2.3.1](https://www.npmjs.com/package/gulp-sass)
@@ -21,15 +22,26 @@ Boilerplate customizado com Bootstrap, FancyBox, Font Awesome e Owl Carousel.
 
 ## Workflow
 ```
-Gulp Boilerplate/
+Gulp Bootstrap/
 │
 ├── assets/
 │   │
-│   ├── css/
-│   ├── fonts/
-│   ├── images/
-│   ├── js/
-│   └── sass/
+│   ├── dist/
+│	│   │
+│   │	├── css/
+│   │	├── fonts/
+│   │	├── images/
+│   │	└── js/
+│	│
+│ 	│
+│	└──	src/
+│		│
+│   	├── css/
+│   	├── fonts/
+│   	├── images/
+│   	├── js/
+│   	└── sass/
+│
 │
 ├── gulp/
 │   │
@@ -37,31 +49,30 @@ Gulp Boilerplate/
 │   ├── gulpfile.js
 │   └── package.json
 │
+│
 ├── .gitignore
 ├── LICENSE-MIT.md
 └── README.md
 ```
 
-## Como utilizar
-*Um pré requisito é que você tenha instalado o [Gulp](http://gulpjs.com/) em seu computador*.
+## How to use
+*A requirement is that you have installed on your computer [Gulp](http://gulpjs.com/).
 
-```
-1. Clone o repositório
-    git clone git@github.com:theandersonn/gulp-bootstrap.git
+1. Download the repository
+2. Install dependencies
 
-2. Instale as dependências
-    npm install
+**Task listing**
+- gulp sass (Compiles all files  _scss)
+- gulp concatjs (Concatenate all .js)
+- gulp cssmin (Minify all.css)
+- gulp jsmin (Minify all.js)
+- gulp clean (Clean the folder 'dist/fonts')
+- gulp clone (Clone floder 'src/fonts' to 'dist/fonts')
+- gulp src (performs tasks sass, concatjs, clean and clone )
+- gulp dist (performs tasks cssmin and jsmin)
 
-3. gulp executa simultaneamente as tarefas sass e concatjs que compilam os arquivos all.css e all.js para o desenvolvimento em localhost
-
-4. gulp cssmin minifica o all.css gerando o arquivo all.min.css
-
-5. gulp jsmin minifica o all.js gerando o arquivo all.min.js     
-```
-
-## Questões e dúvidas
-Caso tenha alguma dificuldade em utilizar o Gulp Boilerplate ou deseje saber algum aspecto da configuração atual, abra uma [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) e explique a sua dificuldade.
+## Questions
+If you have any difficulty using the Gulp Boilerplate or would like some aspect of the current configuration, open an [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) and explain your difficulty.
 
 ## License
-
 [MIT](https://github.com/theandersonn/gulp-bootstrap/blob/master/LICENSE-MIT.md) © [Anderson Nascimento](https://github.com/theandersonn)

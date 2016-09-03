@@ -1,9 +1,10 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "gulp-bootstrap",
   "version": "1.0.0",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-plumber": "^1.1.0",
