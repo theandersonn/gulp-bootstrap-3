@@ -13,7 +13,7 @@ Boilerplate customized with Bootstrap, Font Awesome and Owl Carousel.
 * [html5shiv 3.7.3](https://github.com/aFarkas/html5shiv) 
 * [respond 1.4.2](https://github.com/scottjehl/Respond) 
 
-## Dependences
+## Dependencies
 * [gulp 3.9.0](http://gulpjs.com) 
 * [gulp-autoprefixer 3.1.0](https://www.npmjs.com/package/gulp-autoprefixer)
 * [gulp-clean 0.3.2](https://www.npmjs.com/package/gulp-clean)
