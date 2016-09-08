@@ -9,7 +9,7 @@ var cleanimages = require('gulp-clean');
 
 gulp.task( 'imagemin', ['cleanimages'], function() {
   return gulp.src('../assets/src/images/**/*')
-  	.pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
+  	.pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
   	.pipe(gulp.dest('../assets/dist/images/'));
 });
 
