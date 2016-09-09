@@ -3479,7 +3479,7 @@ th {
   content: "\e260"; }
 
 /* ----------------------------------------------
-    FONTES
+    FONTS
 ---------------------------------------------- */
 /* 
  *  Owl Carousel - Animate Plugin
@@ -5809,8 +5809,100 @@ input[type="button"].btn-block {
   width: 100%; }
 
 /* ----------------------------------------------
-    FORMULÁRIOS
+	STRUCTURE FORM
 ---------------------------------------------- */
+#responsive-form {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%; }
+
+.form-row {
+  width: 100%; }
+
+.column-half, .column-full {
+  float: left;
+  position: relative;
+  padding: 0.65rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.column-full {
+  width: 100%; }
+
+.column-half {
+  width: 50%; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*------------------------------
+    MEDIA QUERY
+-------------------------------*/
+@media (max-width: 768px) {
+  .column-half {
+    width: 100%; } }
+
+/*------------------------------
+    CONTACT FORM 7
+-------------------------------*/
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
+  width: 100%;
+  padding: 4px 13px;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wpcf7 input[type="text"]:focus {
+  background: #fff; }
+
+.wpcf7-validation-errors, .wpcf7-mail-sent-ok {
+  display: inline-block; }
+
+/*.wpcf7-submit {
+	float: right;
+	background: #CA0002;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+
+.wpcf7-submit:hover {
+	background: #ff0000;
+}*/
+/*span.wpcf7-not-valid-tip {
+	text-shadow: none;
+	font-size: 12px;
+	color: #fff;
+	background: #ff0000;
+	padding: 5px;
+}*/
+/*div.wpcf7-validation-errors { 
+	text-shadow: none;
+	border: transparent;
+	background: #f9cd00;
+	padding: 5px;
+	color: #9C6533;
+	text-align: center;
+	margin: 0;
+	font-size: 12px;
+}*/
+/*div.wpcf7-mail-sent-ok {
+	text-align: center;
+	text-shadow: none;
+	padding: 5px;
+	font-size: 12px;
+	background: #59a80f;
+	border-color: #59a80f;
+	color: #fff;
+	margin: 0;
+}*/
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
@@ -8531,11 +8623,230 @@ button.close {
  *  https://github.com/theandersonn
  ************************************************************************************/
 /*--------------------------------------------------------------
-    MAIN
+    RESET
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+  PANEL ACCORDION
+--------------------------------------------------------------*/
+.panel-title > a:after {
+  content: "\e259";
+  float: right;
+  font-family: 'Glyphicons Halflings';
+  font-size: 7pt;
+  line-height: 2;
+  color: silver; }
+
+/*--------------------------------------------------------------
+  IMAGES
+--------------------------------------------------------------*/
+.alignleft,
+img.alignleft {
+  display: inline;
+  float: left;
+  margin: 15px 15px 26px 0; }
+
+.alignright,
+img.alignright {
+  display: inline;
+  float: right;
+  margin: 15px 0 15px 15px; }
+
+.aligncenter,
+img.aligncenter {
+  clear: both;
+  display: block;
+  margin: 15px auto 10px auto; }
+
+.alignnone,
+img.alignnone {
+  clear: both;
+  display: block;
+  margin: 20px auto; }
+
 /* ----------------------------------------------
-    CSS PRINCIPAL DO SITE
+  PAGINATION
 ---------------------------------------------- */
+.pagination {
+  font-size: 0; }
+
+.pagination li {
+  display: inline-block;
+  margin-left: 5px;
+  text-align: center; }
+
+.pagination li:first-child {
+  margin-left: 0; }
+
+.pagination a,
+.pagination span,
+.pagination .current {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+  color: #797979;
+  font-size: 14px;
+  display: block;
+  min-width: 36px;
+  padding: 10px;
+  text-decoration: none; }
+
+.pagination .current {
+  background: #e0e0e0;
+  color: #fff;
+  cursor: default; }
+
+/* ----------------------------------------------
+  BLOCKQUOTE
+---------------------------------------------- */
+blockquote {
+  margin: 1.5em 0 1.5em;
+  padding: 0 8em 0 12em;
+  position: relative;
+  text-align: justify; }
+
+blockquote:before {
+  color: #ccc;
+  content: "\201C";
+  font-size: 5em;
+  position: absolute;
+  left: 140px;
+  top: 0.3em;
+  line-height: 0.1em; }
+
+blockquote:after {
+  color: #ccc;
+  content: "\201D";
+  font-size: 5em;
+  position: absolute;
+  right: 103px;
+  bottom: 0em;
+  line-height: 0.1em; }
+
+/* ----------------------------------------------
+  COMMENTS
+---------------------------------------------- */
+.container-comments {
+  width: 100%;
+  padding: 10px; }
+
+.comments-title {
+  font-size: 20px; }
+
+.comment-list,
+.children {
+  list-style: none;
+  font-size: 15px; }
+
+.comment-list li {
+  border: 1px solid #eee;
+  margin: 0 0 15px -20px;
+  padding: 10px; }
+
+.comment-list li img {
+  float: left;
+  padding: 5px; }
+
+.reply,
+.nofollow {
+  margin-bottom: 10px; }
+
+#commentform label {
+  display: block; }
+
+#commentform p {
+  margin: 10px 0; }
+
+#commentform input {
+  border: 1px solid #CFCFCF;
+  color: #1f1f1f;
+  font-size: 14px;
+  outline: 0;
+  padding-left: 8px;
+  width: 100%; }
+
+#commentform input[type=submit] {
+  background: #ededed; }
+
+#commentform input:hover[type=submit] {
+  background: #6BBA70;
+  color: #fff; }
+
+#commentform textarea {
+  border: 1px solid #cfcfcf;
+  color: #1f1f1f;
+  font-size: 14px;
+  outline: 0;
+  padding: 5px;
+  width: 100%; }
+
+.comment-form {
+  padding-top: 1.6em; }
+
+.comment-form label {
+  color: #707070;
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  text-transform: uppercase; }
+
+textarea#comment,
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form input[type="submit"] {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  width: 100%; }
+
+/* ----------------------------------------------
+    PAGE 404 
+---------------------------------------------- */
+.not-found {
+  color: #707070;
+  font-size: 20px;
+  min-height: 500px;
+  padding-top: 30px;
+  text-align: center; }
+
+.not-found div {
+  color: #e0e0e0;
+  font-size: 5em;
+  font-weight: bold; }
+
+.not-found p {
+  border-top: 2px solid #e0e0e0;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 30px;
+  width: 80%; }
+
+@media (min-width: 480px) {
+  .not-found {
+    font-size: 40px; } }
+
+/* ----------------------------------------------
+    CSS MAIN
+---------------------------------------------- */
+/* ###### HEADER ###### */
+.navbar-brand {
+  margin-left: 0px !important;
+  padding: 0; }
+
+/* ###### MAIN ###### */
+.main {
+  margin-bottom: 20px; }
+
+.col-example {
+  background-color: #F8F8F8;
+  border: 1px solid #ccc; }
+
+/* ###### FOOTER ###### */
+.footer {
+  background-color: #F8F8F8;
+  padding: 30px; }
+
 /* ----------------------------------------------
     MEDIA QUERIES
 ---------------------------------------------- */
