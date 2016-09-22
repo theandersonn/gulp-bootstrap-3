@@ -2,12 +2,13 @@
 Boilerplate customized with Bootstrap, Font Awesome and Owl Carousel.
 
 * [Bootstrap 3.3.6](http://getbootstrap.com/) 
-* [FancyBox 2.1.5](http://fancyapps.com/fancybox/) 
-* [Font Awesome 4.6.3](http://fontawesome.io/) 
-* [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/)
+* [Font Awesome 4.6.3](http://fontawesome.io/)
 
 ## Libraries 
+* [FancyBox 2.1.5](http://fancyapps.com/fancybox/) 
 * [jQuery 2.2.4](https://code.jquery.com/)
+* [Masked Input 1.4.1](https://github.com/digitalBush/jquery.maskedinput)
+* [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/)
 
 ## Helpers
 * [html5shiv 3.7.3](https://github.com/aFarkas/html5shiv) 
