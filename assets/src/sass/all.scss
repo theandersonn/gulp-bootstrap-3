@@ -1,102 +1,110 @@
 /************************************************************************************!
- *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *  FONT AWESOME
  ************************************************************************************/
-@import "awesome/variables";
-@import "awesome/mixins";
-@import "awesome/path";
-@import "awesome/core";
-@import "awesome/larger";
-@import "awesome/fixed-width";
-@import "awesome/list";
-@import "awesome/bordered-pulled";
-@import "awesome/animated";
-@import "awesome/rotated-flipped";
-@import "awesome/stacked";
-@import "awesome/icons";
-@import "awesome/screen-reader";
+/* @import "libs/awesome/variables";
+@import "libs/awesome/mixins";
+@import "libs/awesome/path";
+@import "libs/awesome/core";
+@import "libs/awesome/larger";
+@import "libs/awesome/fixed-width";
+@import "libs/awesome/list";
+@import "libs/awesome/bordered-pulled";
+@import "libs/awesome/animated";
+@import "libs/awesome/rotated-flipped";
+@import "libs/awesome/stacked";
+@import "libs/awesome/icons";
+@import "libs/awesome/screen-reader"; */
 
 /************************************************************************************!
- *  fancyBox v2.1.5 fancyapps.com 
- *  fancyapps.com/fancybox/#license
+ *  FANCYBOX v2.1.5
  ************************************************************************************/
- @import "components/jquery.fancybox";
+ /* @import "libs/fancybox/jquery.fancybox"; */
+
+ /************************************************************************************!
+ *  OWL SLIDER 2.0.0
+ ************************************************************************************/
+@import 'libs/owl/owl-carousel';
+@import 'libs/owl/owl-theme';
 
 /************************************************************************************!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * BOOTSTRAP v3.3.6 
  ************************************************************************************/
-// Core variables and mixins
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
+/* CORE VARIABLES ANS MIXINS */
+@import "libs/bootstrap/variables";
+@import "libs/bootstrap/mixins";
 
-// Core variables and mixins @theandersonn
+/* RESET AND DEPENDENCIES */
+@import "libs/bootstrap/normalize";
+/* @import "libs/bootstrap/print";
+@import "libs/bootstrap/glyphicons"; */
+
+/* CORE CSS */
+@import "libs/bootstrap/scaffolding";
+@import "libs/bootstrap/type";
+/* @import "libs/bootstrap/code"; */
+@import "libs/bootstrap/grid";
+/* @import "libs/bootstrap/tables"; */
+@import "libs/bootstrap/forms";
+@import "libs/bootstrap/buttons";
+
+/* COMPONENTS */
+@import "libs/bootstrap/component-animations";
+@import "libs/bootstrap/dropdowns";
+@import "libs/bootstrap/button-groups";
+@import "libs/bootstrap/input-groups";
+@import "libs/bootstrap/navs";
+@import "libs/bootstrap/navbar";
+/* @import "libs/bootstrap/breadcrumbs"; */
+/* @import "libs/bootstrap/pagination"; */
+/* @import "libs/bootstrap/pager"; */
+/* @import "libs/bootstrap/labels"; */
+/* @import "libs/bootstrap/badges"; */
+/* @import "libs/bootstrap/jumbotron"; */
+@import "libs/bootstrap/thumbnails";
+/* @import "libs/bootstrap/alerts"; */
+/* @import "libs/bootstrap/progress-bars"; */
+/* @import "libs/bootstrap/media"; */
+/* @import "libs/bootstrap/list-group"; */
+/* @import "libs/bootstrap/panels"; */
+/* @import "libs/bootstrap/responsive-embed"; */
+/* @import "libs/bootstrap/wells"; */
+/* @import "libs/bootstrap/close"; */
+
+/* COMPONENTS - JAVASCRIPT */
+/* @import "libs/bootstrap/modals";
+@import "libs/bootstrap/tooltip";
+@import "libs/bootstrap/popovers";
+@import "libs/bootstrap/carousel"; */
+
+/* UTILITY CLASS */
+@import "libs/bootstrap/utilities";
+@import "libs/bootstrap/responsive-utilities";
+
+/************************************************************************************!
+ *  MY CUSTOM STYLES @theandersonn \o/
+ ************************************************************************************/ 
+
+/* BASE */
+/* @import 'base/fonts'; */
+@import 'base/fonts';
+@import 'base/reset';
+
+/* COMPONENTS */
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/navigation';
+@import 'components/sliders';
+@import 'components/wordpress';
+
+/* HELPERS */
 @import 'helpers/functions';
 @import 'helpers/variables';
 @import 'helpers/mixins';
 
-// Reset and dependencies
-@import "bootstrap/normalize";
-@import "bootstrap/print";
-@import "bootstrap/glyphicons";
+/* LAYOUT */
+@import 'layout/header';
+@import 'layout/footer';
 
-// Dependencies @theandersonn
-@import 'base/fonts';
-@import 'components/owl-carousel';
-@import 'components/owl-theme';
-
-// Core CSS
-@import "bootstrap/scaffolding";
-@import "bootstrap/type";
-@import "bootstrap/code";
-@import "bootstrap/grid";
-@import "bootstrap/tables";
-@import "bootstrap/forms";
-@import "bootstrap/buttons";
-
-// Core CSS @theandersonn
-@import 'components/forms';
-
-// Components
-@import "bootstrap/component-animations";
-@import "bootstrap/dropdowns";
-@import "bootstrap/button-groups";
-@import "bootstrap/input-groups";
-@import "bootstrap/navs";
-@import "bootstrap/navbar";
-@import "bootstrap/breadcrumbs";
-@import "bootstrap/pagination";
-@import "bootstrap/pager";
-@import "bootstrap/labels";
-@import "bootstrap/badges";
-@import "bootstrap/jumbotron";
-@import "bootstrap/thumbnails";
-@import "bootstrap/alerts";
-@import "bootstrap/progress-bars";
-@import "bootstrap/media";
-@import "bootstrap/list-group";
-@import "bootstrap/panels";
-@import "bootstrap/responsive-embed";
-@import "bootstrap/wells";
-@import "bootstrap/close";
-
-// Components w/ JavaScript
-@import "bootstrap/modals";
-@import "bootstrap/tooltip";
-@import "bootstrap/popovers";
-@import "bootstrap/carousel";
-
-// Utility classes
-@import "bootstrap/utilities";
-@import "bootstrap/responsive-utilities";
-
-/************************************************************************************!
- *  @theandersonn \o/
- *  https://github.com/theandersonn
- ************************************************************************************/ 
-@import 'base/reset';
-@import 'components/bootstrap';
-@import 'components/wordpress';
-@import 'base/main';
-@import 'base/media-queries';
+/* PAGES */
+@import 'pages/general';
+@import 'pages/home';

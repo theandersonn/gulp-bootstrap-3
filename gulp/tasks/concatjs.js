@@ -13,30 +13,27 @@ gulp.task('concatjs', function() {
         '../assets/src/js/helpers/respond.js',
 
         // JQUERY
-        '../assets/src/js/libs/jquery-2.2.4.js',
+        '../assets/src/js/libs/jquery/jquery-2.2.4.js',
         
         // BOOTSTRAP    
-        //'../assets/src/js/bootstrap/affix.js',
-        //'../assets/src/js/bootstrap/alert.js',
-        //'../assets/src/js/bootstrap/button.js',
-        //'../assets/src/js/bootstrap/carousel.js',
-        '../assets/src/js/bootstrap/collapse.js',
-        '../assets/src/js/bootstrap/dropdown.js',
-        //'../assets/src/js/bootstrap/modal.js',
-        // '../assets/src/js/bootstrap/popover.js', Esse sapeca está com treta :(
-        //'../assets/src/js/bootstrap/scrollspy.js',
-        //'../assets/src/js/bootstrap/tab.js',
-        //'../assets/src/js/bootstrap/tooltip.js',
-        //'../assets/src/js/bootstrap/transition.js',
-
-        // MASKED INPUT
-        '../assets/src/js/libs/jquery.maskedinput.js',
+        // '../assets/src/js/libs/bootstrap/affix.js',
+        // '../assets/src/js/libs/bootstrap/alert.js',
+        // '../assets/src/js/libs/bootstrap/button.js',
+        // '../assets/src/js/libs/bootstrap/carousel.js',
+        '../assets/src/js/libs/bootstrap/collapse.js',
+        // '../assets/src/js/libs/bootstrap/dropdown.js',
+        // '../assets/src/js/libs/bootstrap/modal.js',
+        // '../assets/src/js/libs/bootstrap/popover.js', Esse sapeca está com treta :(
+        // '../assets/src/js/libs/bootstrap/scrollspy.js',
+        // '../assets/src/js/libs/bootstrap/tab.js',
+        // '../assets/src/js/libs/bootstrap/tooltip.js',
+        '../assets/src/js/libs/bootstrap/transition.js',
 
         // FANCYBOX
-        '../assets/src/js/libs/jquery.fancybox.js',        
+        // '../assets/src/js/libs/fancybox/jquery.fancybox.js',        
 
         // OWL CAROUSEL
-        '../assets/src/js/libs/owl.carousel.js',
+        '../assets/src/js/libs/owl-carousel/owl.carousel.js',
 
         // FUNCTIONS
         '../assets/src/js/functions/functions.js'

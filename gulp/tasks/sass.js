@@ -5,6 +5,7 @@
 'use strict';
 
 var gulp = require('gulp');
+var prefix = require('gulp-autoprefixer');
 var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
 var gutil = require('gulp-util');
@@ -17,7 +18,8 @@ gulp.task('sass', function () {
         gutil.log(gutil.colors.red(error.message));
         this.emit('end');
     }))
-
+ 
     .pipe(sass().on('Erro de Sintaxe', sass.logError))
+    .pipe(prefix('last 4 versions'))
     .pipe(gulp.dest('../assets/src/css/'));
 });
