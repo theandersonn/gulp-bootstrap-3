@@ -68,6 +68,8 @@ Gulp Bootstrap/
 2. Install dependencies
 
 **Task listing**
+- gulp (performs tasks sass and concatjs)
+- gulp dist (performs tasks cssmin, jsmin, clone and imagemin)
 - gulp sass (Compiles all files  _scss)
 - gulp concatjs (Concatenate all .js)
 - gulp cssmin (Minify all.css)
@@ -76,8 +78,6 @@ Gulp Bootstrap/
 - gulp clean-fonts (Clean the folder 'dist/fonts')
 - gulp clean-images (Clean the folder 'dist/images')
 - gulp clone (Clone floder 'src/fonts' to 'dist/fonts')
-- gulp src (performs tasks sass and concatjs)
-- gulp dist (performs tasks cssmin, jsmin, clone and imagemin)
 
 ## Questions
 If you have any difficulty using the Gulp Boilerplate or would like some aspect of the current configuration, open an [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) and explain your difficulty.
