@@ -1,7 +1,7 @@
 /************************************************************************************!
- *  FONT AWESOME
+ *  FONT AWESOME v4.6.3
  ************************************************************************************/
-/* @import "libs/awesome/variables";
+@import "libs/awesome/variables";
 @import "libs/awesome/mixins";
 @import "libs/awesome/path";
 @import "libs/awesome/core";
@@ -13,7 +13,7 @@
 @import "libs/awesome/rotated-flipped";
 @import "libs/awesome/stacked";
 @import "libs/awesome/icons";
-@import "libs/awesome/screen-reader"; */
+@import "libs/awesome/screen-reader";
 
 /************************************************************************************!
  *  FANCYBOX v2.1.5
@@ -34,24 +34,24 @@
 @import "libs/bootstrap/mixins";
 
 /* RESET AND DEPENDENCIES */
-@import "libs/bootstrap/normalize";
+/*@import "libs/bootstrap/normalize";*/
 /* @import "libs/bootstrap/print";
 @import "libs/bootstrap/glyphicons"; */
 
 /* CORE CSS */
-@import "libs/bootstrap/scaffolding";
-@import "libs/bootstrap/type";
+/*@import "libs/bootstrap/scaffolding";*/
+/*@import "libs/bootstrap/type";*/
 /* @import "libs/bootstrap/code"; */
 @import "libs/bootstrap/grid";
 /* @import "libs/bootstrap/tables"; */
-@import "libs/bootstrap/forms";
-@import "libs/bootstrap/buttons";
+/*@import "libs/bootstrap/forms";*/
+/*@import "libs/bootstrap/buttons";*/
 
 /* COMPONENTS */
-@import "libs/bootstrap/component-animations";
+/*@import "libs/bootstrap/component-animations";*/
 @import "libs/bootstrap/dropdowns";
-@import "libs/bootstrap/button-groups";
-@import "libs/bootstrap/input-groups";
+/*@import "libs/bootstrap/button-groups";*/
+/*@import "libs/bootstrap/input-groups";*/
 @import "libs/bootstrap/navs";
 @import "libs/bootstrap/navbar";
 /* @import "libs/bootstrap/breadcrumbs"; */
@@ -60,7 +60,7 @@
 /* @import "libs/bootstrap/labels"; */
 /* @import "libs/bootstrap/badges"; */
 /* @import "libs/bootstrap/jumbotron"; */
-@import "libs/bootstrap/thumbnails";
+/*@import "libs/bootstrap/thumbnails";*/
 /* @import "libs/bootstrap/alerts"; */
 /* @import "libs/bootstrap/progress-bars"; */
 /* @import "libs/bootstrap/media"; */
