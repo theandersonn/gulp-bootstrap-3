@@ -1,7 +1,6 @@
 @charset "UTF-8";
-/************************************************************************************!
- *  FONT AWESOME v4.6.3
- ************************************************************************************/
+/*  FONT AWESOME v4.6.3
+ **********************************************/
 /* FONT PATH
  * -------------------------- */
 @font-face {
@@ -2190,13 +2189,11 @@
   overflow: visible;
   clip: auto; }
 
-/************************************************************************************!
- *  FANCYBOX v2.1.5
- ************************************************************************************/
-/* @import "libs/fancybox/jquery.fancybox"; */
-/************************************************************************************!
- *  OWL SLIDER 2.0.0
- ************************************************************************************/
+/*  FANCYBOX v2.1.5
+ **********************************************/
+/* @import "libs/fancybox/fancybox"; */
+/*  OWL SLIDER 2.0.0
+ **********************************************/
 /* 
  *  Owl Carousel - Animate Plugin
  */
@@ -2430,18 +2427,17 @@
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791; }
 
-/************************************************************************************!
- * BOOTSTRAP v3.3.6 
- ************************************************************************************/
-/* CORE VARIABLES ANS MIXINS */
+/* BOOTSTRAP v3.3.6 
+ **********************************************/
+/* CORE VARIABLES AND MIXINS */
 /* RESET AND DEPENDENCIES */
-/*@import "libs/bootstrap/normalize";*/
-/* @import "libs/bootstrap/print";
-@import "libs/bootstrap/glyphicons"; */
+/* @import "styles/normalize";*/
+/* @import "styles/print";
+   @import "styles/glyphicons"; */
 /* CORE CSS */
-/*@import "libs/bootstrap/scaffolding";*/
-/*@import "libs/bootstrap/type";*/
-/* @import "libs/bootstrap/code"; */
+/* @import "styles/scaffolding";*/
+/* @import "styles/type";*/
+/* @import "styles/code"; */
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -2962,11 +2958,11 @@
   .col-lg-offset-12 {
     margin-left: 100%; } }
 
-/* @import "libs/bootstrap/tables"; */
-/*@import "libs/bootstrap/forms";*/
-/*@import "libs/bootstrap/buttons";*/
+/* @import "styles/tables"; */
+/* @import "styles/forms";*/
+/* @import "styles/buttons";*/
 /* COMPONENTS */
-/*@import "libs/bootstrap/component-animations";*/
+/* @import "styles/component-animations";*/
 .caret {
   display: inline-block;
   width: 0;
@@ -3097,8 +3093,8 @@
     left: 0;
     right: auto; } }
 
-/*@import "libs/bootstrap/button-groups";*/
-/*@import "libs/bootstrap/input-groups";*/
+/* @import "styles/button-groups";*/
+/* @import "styles/input-groups";*/
 .nav {
   margin-bottom: 0;
   padding-left: 0;
@@ -3587,26 +3583,26 @@
     fieldset[disabled] .navbar-inverse .btn-link:focus {
       color: #444; }
 
-/* @import "libs/bootstrap/breadcrumbs"; */
-/* @import "libs/bootstrap/pagination"; */
-/* @import "libs/bootstrap/pager"; */
-/* @import "libs/bootstrap/labels"; */
-/* @import "libs/bootstrap/badges"; */
-/* @import "libs/bootstrap/jumbotron"; */
-/*@import "libs/bootstrap/thumbnails";*/
-/* @import "libs/bootstrap/alerts"; */
-/* @import "libs/bootstrap/progress-bars"; */
-/* @import "libs/bootstrap/media"; */
-/* @import "libs/bootstrap/list-group"; */
-/* @import "libs/bootstrap/panels"; */
-/* @import "libs/bootstrap/responsive-embed"; */
-/* @import "libs/bootstrap/wells"; */
-/* @import "libs/bootstrap/close"; */
+/* @import "styles/breadcrumbs"; */
+/* @import "styles/pagination"; */
+/* @import "styles/pager"; */
+/* @import "styles/labels"; */
+/* @import "styles/badges"; */
+/* @import "styles/jumbotron"; */
+/* @import "styles/thumbnails";*/
+/* @import "styles/alerts"; */
+/* @import "styles/progress-bars"; */
+/* @import "styles/media"; */
+/* @import "styles/list-group"; */
+/* @import "styles/panels"; */
+/* @import "styles/responsive-embed"; */
+/* @import "styles/wells"; */
+/* @import "styles/close"; */
 /* COMPONENTS - JAVASCRIPT */
-/* @import "libs/bootstrap/modals";
-@import "libs/bootstrap/tooltip";
-@import "libs/bootstrap/popovers";
-@import "libs/bootstrap/carousel"; */
+/* @import "styles/modals";
+   @import "styles/tooltip";
+   @import "styles/popovers";
+   @import "styles/carousel"; */
 /* UTILITY CLASS */
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -3821,9 +3817,8 @@
   .hidden-print {
     display: none !important; } }
 
-/************************************************************************************!
- *  MY CUSTOM STYLES @theandersonn \o/
- ************************************************************************************/
+/*  MY CUSTOM STYLES @theandersonn \o/
+ **********************************************/
 /* BASE */
 /* @import 'base/fonts'; */
 /* ----------------------------------------------
@@ -3840,106 +3835,69 @@
 *:after {
   box-sizing: border-box; }
 
+/*--------------------------------------------------------------
+    TYPOGRAPHY
+--------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 400; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: #333;
+  font-weight: 700; }
+
+h1 {
+  font-size: 4rem; }
+
+h2 {
+  font-size: 3.4rem; }
+
+h3 {
+  font-size: 2.8rem; }
+
+h4 {
+  font-size: 2.2rem; }
+
+h5 {
+  font-size: 1.6rem; }
+
+h6 {
+  font-size: 1.4rem; }
+
+p {
+  margin-top: 0; }
+
+/* Links
+---------------------------------------------------------*/
+a {
+  color: #337ab7; }
+
+a:hover,
+a:focus {
+  color: #23527c; }
+
+a:visited {
+  color: #c34f4a; }
+
 /* COMPONENTS */
 /* ----------------------------------------------
 	BUTTONS
 ---------------------------------------------- */
 /* ----------------------------------------------
-	STRUCTURE FORM
+	FORM
 ---------------------------------------------- */
-#responsive-form {
-  max-width: 600px;
-  margin: 0 auto;
-  width: 100%; }
-
-.form-row {
-  width: 100%; }
-
-.column-half, .column-full {
-  float: left;
-  position: relative;
-  padding: 0.65rem;
-  box-sizing: border-box; }
-
-.column-full {
-  width: 100%; }
-
-.column-half {
-  width: 50%; }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-/*------------------------------
-    MEDIA QUERY
--------------------------------*/
-@media (max-width: 768px) {
-  .column-half {
-    width: 100%; } }
-
-/*------------------------------
-    CONTACT FORM 7
--------------------------------*/
-.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
-  width: 100%;
-  padding: 4px 13px;
-  border: 1px solid #e1e1e1;
-  border-radius: 3px;
-  box-sizing: border-box; }
-
-.wpcf7 input[type="text"]:focus {
-  background: #fff; }
-
-.wpcf7-validation-errors, .wpcf7-mail-sent-ok {
-  display: inline-block; }
-
-/*.wpcf7-submit {
-	float: right;
-	background: #CA0002;
-	color: #fff;
-	text-transform: uppercase;
-	border: none;
-	padding: 8px 20px;
-	cursor: pointer;
-}
-
-.wpcf7-submit:hover {
-	background: #ff0000;
-}*/
-/*span.wpcf7-not-valid-tip {
-	text-shadow: none;
-	font-size: 12px;
-	color: #fff;
-	background: #ff0000;
-	padding: 5px;
-}*/
-/*div.wpcf7-validation-errors { 
-	text-shadow: none;
-	border: transparent;
-	background: #f9cd00;
-	padding: 5px;
-	color: #9C6533;
-	text-align: center;
-	margin: 0;
-	font-size: 12px;
-}*/
-/*div.wpcf7-mail-sent-ok {
-	text-align: center;
-	text-shadow: none;
-	padding: 5px;
-	font-size: 12px;
-	background: #59a80f;
-	border-color: #59a80f;
-	color: #fff;
-	margin: 0;
-}*/
 /* ----------------------------------------------
 	NAVIGATION
----------------------------------------------- */
-/* ----------------------------------------------
-    SLIDERS
 ---------------------------------------------- */
 /*--------------------------------------------------------------
   IMAGES
@@ -4135,10 +4093,8 @@ textarea#comment,
 /* ----------------------------------------------
     FUNCTIONS
 ---------------------------------------------- */
-/* Calcula porcentagem de margens e paddings */
-/* Converte as fontes para em */
 /* ----------------------------------------------
-    VARIÁVEIS
+    VARIABLES
 ---------------------------------------------- */
 /* ----------------------------------------------
     MIXINS
@@ -4147,19 +4103,9 @@ textarea#comment,
 /* ----------------------------------------------
 	HEADER
 ---------------------------------------------- */
-/* ###### HEADER ###### */
-.navbar-brand {
-  margin-left: 0px !important;
-  padding: 0; }
-
 /* ----------------------------------------------
 	FOOTER
 ---------------------------------------------- */
-/* ###### FOOTER ###### */
-.footer {
-  background-color: #F8F8F8;
-  padding: 30px; }
-
 /* PAGES */
 /*--------------------------------------------------------------
     GENERAL
@@ -4167,10 +4113,3 @@ textarea#comment,
 /* ----------------------------------------------
     HOME
 ---------------------------------------------- */
-/* ###### MAIN ###### */
-.main {
-  margin-bottom: 20px; }
-
-.col-example {
-  background-color: #F8F8F8;
-  border: 1px solid #ccc; }

@@ -1,110 +1,45 @@
-/************************************************************************************!
- *  FONT AWESOME v4.6.3
- ************************************************************************************/
-@import "libs/awesome/variables";
-@import "libs/awesome/mixins";
-@import "libs/awesome/path";
-@import "libs/awesome/core";
-@import "libs/awesome/larger";
-@import "libs/awesome/fixed-width";
-@import "libs/awesome/list";
-@import "libs/awesome/bordered-pulled";
-@import "libs/awesome/animated";
-@import "libs/awesome/rotated-flipped";
-@import "libs/awesome/stacked";
-@import "libs/awesome/icons";
-@import "libs/awesome/screen-reader";
 
-/************************************************************************************!
- *  FANCYBOX v2.1.5
- ************************************************************************************/
- /* @import "libs/fancybox/jquery.fancybox"; */
+/*  FONT AWESOME v4.6.3
+ **********************************************/
+@import "libs/awesome/awesome";
 
- /************************************************************************************!
- *  OWL SLIDER 2.0.0
- ************************************************************************************/
-@import 'libs/owl/owl-carousel';
-@import 'libs/owl/owl-theme';
+/*  FANCYBOX v2.1.5
+ **********************************************/
+ /* @import "libs/fancybox/fancybox"; */
 
-/************************************************************************************!
- * BOOTSTRAP v3.3.6 
- ************************************************************************************/
-/* CORE VARIABLES ANS MIXINS */
-@import "libs/bootstrap/variables";
+/*  OWL SLIDER 2.0.0
+ **********************************************/
+@import "libs/owl/owl";
+
+/* BOOTSTRAP v3.3.6 
+ **********************************************/
 @import "libs/bootstrap/mixins";
+@import "libs/bootstrap/bootstrap";
 
-/* RESET AND DEPENDENCIES */
-/*@import "libs/bootstrap/normalize";*/
-/* @import "libs/bootstrap/print";
-@import "libs/bootstrap/glyphicons"; */
-
-/* CORE CSS */
-/*@import "libs/bootstrap/scaffolding";*/
-/*@import "libs/bootstrap/type";*/
-/* @import "libs/bootstrap/code"; */
-@import "libs/bootstrap/grid";
-/* @import "libs/bootstrap/tables"; */
-/*@import "libs/bootstrap/forms";*/
-/*@import "libs/bootstrap/buttons";*/
-
-/* COMPONENTS */
-/*@import "libs/bootstrap/component-animations";*/
-@import "libs/bootstrap/dropdowns";
-/*@import "libs/bootstrap/button-groups";*/
-/*@import "libs/bootstrap/input-groups";*/
-@import "libs/bootstrap/navs";
-@import "libs/bootstrap/navbar";
-/* @import "libs/bootstrap/breadcrumbs"; */
-/* @import "libs/bootstrap/pagination"; */
-/* @import "libs/bootstrap/pager"; */
-/* @import "libs/bootstrap/labels"; */
-/* @import "libs/bootstrap/badges"; */
-/* @import "libs/bootstrap/jumbotron"; */
-/*@import "libs/bootstrap/thumbnails";*/
-/* @import "libs/bootstrap/alerts"; */
-/* @import "libs/bootstrap/progress-bars"; */
-/* @import "libs/bootstrap/media"; */
-/* @import "libs/bootstrap/list-group"; */
-/* @import "libs/bootstrap/panels"; */
-/* @import "libs/bootstrap/responsive-embed"; */
-/* @import "libs/bootstrap/wells"; */
-/* @import "libs/bootstrap/close"; */
-
-/* COMPONENTS - JAVASCRIPT */
-/* @import "libs/bootstrap/modals";
-@import "libs/bootstrap/tooltip";
-@import "libs/bootstrap/popovers";
-@import "libs/bootstrap/carousel"; */
-
-/* UTILITY CLASS */
-@import "libs/bootstrap/utilities";
-@import "libs/bootstrap/responsive-utilities";
-
-/************************************************************************************!
- *  MY CUSTOM STYLES @theandersonn \o/
- ************************************************************************************/ 
+/*  MY CUSTOM STYLES @theandersonn \o/
+ **********************************************/ 
 
 /* BASE */
 /* @import 'base/fonts'; */
-@import 'base/fonts';
-@import 'base/reset';
+@import "base/fonts";
+@import "base/reset";
+@import "base/typography";
 
 /* COMPONENTS */
-@import 'components/buttons';
-@import 'components/forms';
-@import 'components/navigation';
-@import 'components/sliders';
-@import 'components/wordpress';
+@import "components/buttons";
+@import "components/forms";
+@import "components/navigation";
+@import "components/wordpress";
 
 /* HELPERS */
-@import 'helpers/functions';
-@import 'helpers/variables';
-@import 'helpers/mixins';
+@import "helpers/functions";
+@import "helpers/variables";
+@import "helpers/mixins";
 
 /* LAYOUT */
-@import 'layout/header';
-@import 'layout/footer';
+@import "layout/header";
+@import "layout/footer";
 
 /* PAGES */
-@import 'pages/general';
-@import 'pages/home';
+@import "pages/general";
+@import "pages/home";
