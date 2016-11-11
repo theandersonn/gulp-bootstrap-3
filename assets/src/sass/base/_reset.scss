@@ -5,6 +5,48 @@
 *:before,
 *:after { @include box-sizing(border-box); }
 
+/* Lists
+---------------------------------------------------------*/
+ol,
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  padding-left: 3rem;
+  margin-top: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+/* Images
+---------------------------------------------------------*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tables
+---------------------------------------------------------*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 1rem .7rem;
+  text-align: left;
+}
+
 /*--------------------------------------------------------------
 	normalize.css v5.0.0 
 	MIT License | github.com/necolas/normalize.css
