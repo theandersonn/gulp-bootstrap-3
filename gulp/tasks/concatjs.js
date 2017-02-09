@@ -8,10 +8,6 @@ var concat  = require('gulp-concat');
 gulp.task('concatjs', function() {
     return gulp.src([
 
-        // HELPERS
-        '../assets/js/helpers/html5shiv.js',
-        '../assets/js/helpers/respond.js',
-
         // JQUERY
         '../assets/js/libs/jquery/jquery-2.2.4.js',
         
@@ -34,6 +30,9 @@ gulp.task('concatjs', function() {
 
         // OWL CAROUSEL
         '../assets/js/libs/owl-carousel/owl.carousel.js',
+
+        // MASKED INPUT
+        '../assets/js/libs/masked-input/jquery.maskedinput.js',        
 
         // FUNCTIONS
         '../assets/js/functions/functions.js'
