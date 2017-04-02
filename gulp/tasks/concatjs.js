@@ -25,14 +25,8 @@ gulp.task('concatjs', function() {
         // '../assets/js/libs/bootstrap/tooltip.js',
         '../assets/js/libs/bootstrap/transition.js',
 
-        // FANCYBOX
-        // '../assets/js/libs/fancybox/jquery.fancybox.js',        
-
         // OWL CAROUSEL
-        '../assets/js/libs/owl-carousel/owl.carousel.js',
-
-        // MASKED INPUT
-        '../assets/js/libs/masked-input/jquery.maskedinput.js',        
+        '../assets/js/libs/owl-carousel/owl.carousel.js',      
 
         // FUNCTIONS
         '../assets/js/functions/functions.js'
