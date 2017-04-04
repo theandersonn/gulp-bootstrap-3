@@ -1,51 +1,57 @@
 // Bootstrap Styles
 // --------------------------------------------------
 
-/* CORE VARIABLES AND MIXINS */
+// CORE VARIABLES AND MIXINS
 @import "styles/variables";
 
-/* RESET AND DEPENDENCIES */
-/* @import "styles/normalize";*/
-/* @import "styles/print"; */
-/* @import "styles/glyphicons";*/
+// RESET AND DEPENDENCIES
+@import "styles/normalize";
 
-/* CORE CSS */
-/* @import "styles/scaffolding";*/
-/* @import "styles/type";*/
-/* @import "styles/code"; */
+// @import "styles/print";
+// @import "styles/glyphicons";
+
+// CORE CSS
+// @import "styles/scaffolding";
+// @import "styles/type";
+// @import "styles/code";
+
 @import "styles/grid";
-/* @import "styles/tables"; */
-/* @import "styles/forms";*/
-/* @import "styles/buttons";*/
 
-/* COMPONENTS */
-/* @import "styles/component-animations";*/
+// @import "styles/tables";
+// @import "styles/forms";
+// @import "styles/buttons";
+
+// COMPONENTS
+@import "styles/component-animations";
 @import "styles/dropdowns";
-/* @import "styles/button-groups";*/
-/* @import "styles/input-groups";*/
+
+// @import "styles/button-groups";
+// @import "styles/input-groups";
+
 @import "styles/navs";
 @import "styles/navbar";
-/* @import "styles/breadcrumbs"; */
-/* @import "styles/pagination"; */
-/* @import "styles/pager"; */
-/* @import "styles/labels"; */
-/* @import "styles/badges"; */
-/* @import "styles/jumbotron"; */
-/* @import "styles/thumbnails";*/
-/* @import "styles/alerts"; */
-/* @import "styles/progress-bars"; */
-/* @import "styles/media"; */
-/* @import "styles/list-group"; */
-/* @import "styles/panels"; */
-/* @import "styles/responsive-embed"; */
-/* @import "styles/wells"; */
-/* @import "styles/close"; */
 
-/* COMPONENTS - JAVASCRIPT */
-/* @import "styles/modals"; */
-/* @import "styles/tooltip"; */
-/* @import "styles/popovers"; */
-/* @import "styles/carousel"; */
+// @import "styles/breadcrumbs";
+// @import "styles/pagination";
+// @import "styles/pager";
+// @import "styles/labels";
+// @import "styles/badges";
+// @import "styles/jumbotron";
+// @import "styles/thumbnails";
+// @import "styles/alerts";
+// @import "styles/progress-bars";
+// @import "styles/media";
+// @import "styles/list-group";
+// @import "styles/panels";
+// @import "styles/responsive-embed";
+// @import "styles/wells";
+// @import "styles/close";
+
+// COMPONENTS - JAVASCRIPT
+// @import "styles/modals";
+// @import "styles/tooltip";
+// @import "styles/popovers";
+// @import "styles/carousel";
 
 /* UTILITY CLASS */
 @import "styles/utilities";

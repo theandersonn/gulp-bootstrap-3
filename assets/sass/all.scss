@@ -1,36 +1,34 @@
-/*  OWL SLIDER 2.0.0
- **********************************************/
+//  OWL SLIDER 2.0.0
+// **********************************************/
 @import "libs/owl/owl";
 
-/* BOOTSTRAP v3.3.6 
- **********************************************/
+// BOOTSTRAP v3.3.6 
+// **********************************************/
 @import "libs/bootstrap/mixins";
 @import "libs/bootstrap/bootstrap";
 
-/*  MY CUSTOM STYLES @theandersonn \o/
- **********************************************/ 
+//  MY CUSTOM STYLES @theandersonn \o/
+// **********************************************/ 
 
-/* BASE */
-/* @import 'base/fonts'; */
+// BASE
 @import "base/fonts";
 @import "base/reset";
 @import "base/typography";
 
-/* COMPONENTS */
+// COMPONENTS
 @import "components/buttons";
 @import "components/forms";
-@import "components/navigation";
 @import "components/wordpress";
 
-/* HELPERS */
+// HELPERS
 @import "helpers/functions";
 @import "helpers/variables";
 @import "helpers/mixins";
 
-/* LAYOUT */
+// LAYOUT
 @import "layout/header";
 @import "layout/footer";
 
-/* PAGES */
+// PAGES
 @import "pages/general";
 @import "pages/home";
