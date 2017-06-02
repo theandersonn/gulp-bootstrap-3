@@ -9,24 +9,24 @@ gulp.task('concatjs', function() {
     return gulp.src([
 
         // JQUERY
-        '../assets/js/libs/jquery/jquery-2.2.4.js',
+        'node_modules/jquery/dist/jquery.js',      
         
         // BOOTSTRAP    
-        // '../assets/js/libs/bootstrap/affix.js',
-        // '../assets/js/libs/bootstrap/alert.js',
-        // '../assets/js/libs/bootstrap/button.js',
-        // '../assets/js/libs/bootstrap/carousel.js',
-        '../assets/js/libs/bootstrap/collapse.js',
-        // '../assets/js/libs/bootstrap/dropdown.js',
-        // '../assets/js/libs/bootstrap/modal.js',
-        // '../assets/js/libs/bootstrap/popover.js', Esse sapeca está com treta :(
-        // '../assets/js/libs/bootstrap/scrollspy.js',
-        // '../assets/js/libs/bootstrap/tab.js',
-        // '../assets/js/libs/bootstrap/tooltip.js',
-        '../assets/js/libs/bootstrap/transition.js',
+        // '../assets/js/functions/affix.js',
+        // '../assets/js/functions/alert.js',
+        // '../assets/js/functions/button.js',
+        // '../assets/js/functions/carousel.js',
+        '../assets/js/functions/collapse.js',
+        // '../assets/js/functions/dropdown.js',
+        // '../assets/js/functions/modal.js',
+        // '../assets/js/functions/popover.js', Esse sapeca está com treta :(
+        // '../assets/js/functions/scrollspy.js',
+        // '../assets/js/functions/tab.js',
+        // '../assets/js/functions/tooltip.js',
+        '../assets/js/functions/transition.js',
 
         // OWL CAROUSEL
-        '../assets/js/libs/owl-carousel/owl.carousel.js',      
+        'node_modules/owl-carousel-2/owl.carousel.js',      
 
         // FUNCTIONS
         '../assets/js/functions/functions.js'
