@@ -2,11 +2,6 @@
 // **********************************************/
 @import "libs/owl/owl";
 
-// BOOTSTRAP v3.3.6 
-// **********************************************/
-@import "libs/bootstrap/mixins";
-@import "libs/bootstrap/bootstrap";
-
 //  MY CUSTOM STYLES @theandersonn \o/
 // **********************************************/ 
 
@@ -21,7 +16,6 @@
 @import "components/wordpress";
 
 // HELPERS
-@import "helpers/functions";
 @import "helpers/variables";
 @import "helpers/mixins";
 
