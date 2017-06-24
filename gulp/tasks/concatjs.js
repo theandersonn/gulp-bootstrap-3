@@ -15,8 +15,8 @@ gulp.task('concatjs', function() {
         //'node_modules/owl-carousel-2/owl.carousel.js',      
 
         // FUNCTIONS
-        '../assets/js/functions/functions.js'
+        '../src/js/functions/functions.js'
   ])
     .pipe(concat('all.js'))
-    .pipe(gulp.dest('../assets/js/'));
+    .pipe(gulp.dest('../src/js/'));
 });

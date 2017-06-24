@@ -9,7 +9,7 @@ var sass 		= require('gulp-sass');
 
 // tasks
 gulp.task('sass', function () {
-  gulp.src('../assets/sass/**/*.scss')
+  gulp.src('../src/sass/**/*.scss')
     .pipe(sass().on('Erro de Sintaxe', sass.logError))
-    .pipe(gulp.dest('../assets/css/'))
+    .pipe(gulp.dest('../src/css/'))
 });
