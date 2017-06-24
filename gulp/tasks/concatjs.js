@@ -12,7 +12,7 @@ gulp.task('concatjs', function() {
         'node_modules/jquery/dist/jquery.js',      
         
         // OWL CAROUSEL
-        'node_modules/owl-carousel-2/owl.carousel.js',      
+        //'node_modules/owl-carousel-2/owl.carousel.js',      
 
         // FUNCTIONS
         '../assets/js/functions/functions.js'

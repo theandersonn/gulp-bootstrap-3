@@ -83,4 +83,4 @@ Gulp Bootstrap/
 If you have any difficulty using the Gulp Boilerplate or would like some aspect of the current configuration, open an [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) and explain your difficulty.
 
 ## License
-[MIT](https://github.com/theandersonn/gulp-bootstrap/blob/master/LICENSE-MIT.md) © [Anderson Nascimento](https://github.com/theandersonn)
+[MIT](https://github.com/theandersonn/gulp-bootstrap/blob/master/LICENSE.md) © [Anderson Nascimento](https://github.com/theandersonn)

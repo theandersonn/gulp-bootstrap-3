@@ -1,28 +1,20 @@
-//  OWL SLIDER 2.0.0
-// **********************************************/
-@import "libs/owl/owl";
-
-//  MY CUSTOM STYLES @theandersonn \o/
+//  ALL STYLES 
 // **********************************************/ 
 
 // BASE
 @import "base/fonts";
 @import "base/reset";
+@import "base/variables";
 @import "base/typography";
 
-// COMPONENTS
-@import "components/buttons";
-@import "components/forms";
-@import "components/wordpress";
-
-// HELPERS
-@import "helpers/variables";
-@import "helpers/mixins";
+// UTILITIES
+@import "utilities/mixins";
+@import "utilities/buttons";
+@import "utilities/forms";
+@import "utilities/wordpress";
 
 // LAYOUT
 @import "layout/header";
 @import "layout/footer";
-
-// PAGES
-@import "pages/general";
-@import "pages/home";
+@import "layout/general";
+@import "layout/index";
