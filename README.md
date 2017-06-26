@@ -8,8 +8,6 @@ Custom Boilerplate with common tasks in Fron-End Development.
 ## Libraries 
 * [FancyBox 2.1.5](http://fancyapps.com/fancybox/) 
 * [jQuery 2.2.4](https://code.jquery.com/)
-* [Masked Input 1.4.1](https://github.com/digitalBush/jquery.maskedinput)
-* [Owl Carousel 2.0.0](http://www.owlcarousel.owlgraphic.com/)
 
 ## Dependencies
 * [gulp 3.9.0](http://gulpjs.com) 
