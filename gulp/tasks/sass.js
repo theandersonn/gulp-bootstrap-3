@@ -11,5 +11,5 @@ var sass 		= require('gulp-sass');
 gulp.task('sass', function () {
   gulp.src('../src/sass/**/*.scss')
     .pipe(sass().on('Erro de Sintaxe', sass.logError))
-    .pipe(gulp.dest('../src/css/'))
+    .pipe(gulp.dest('../static/css/'))
 });

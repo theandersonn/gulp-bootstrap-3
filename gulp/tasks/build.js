@@ -4,4 +4,4 @@
 // plugins
 var gulp = require('gulp');
 
-gulp.task('build', ['cssmin', 'jsmin', 'imagemin', 'clone']);
+gulp.task('build', ['cssmin', 'jsmin']);

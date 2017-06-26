@@ -18,5 +18,5 @@ gulp.task('concatjs', function() {
         '../src/js/functions/functions.js'
   ])
     .pipe(concat('all.js'))
-    .pipe(gulp.dest('../src/js/'));
+    .pipe(gulp.dest('../static/js/'));
 });
