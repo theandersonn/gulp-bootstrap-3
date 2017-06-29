@@ -28,8 +28,7 @@ Gulp Boilerplate/
 ├── .editorconfig
 ├── src/
 |   ├── js/
-|   ├── functions/
-|   |   └── all.js
+|   |   └── functions/
 |   |
 |   └── sass/
 |      	├── base/
