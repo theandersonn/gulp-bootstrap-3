@@ -11,11 +11,8 @@ gulp.task('concatjs', function() {
         // JQUERY
         //'node_modules/jquery/dist/jquery.js',
 
-        // OWL CAROUSEL
-        //'node_modules/owl-carousel-2/owl.carousel.js',
-
         // FUNCTIONS
-        '../src/js/functions/functions.js'
+        '../src/js/functions/general.js'
   ])
     .pipe(concat('all.js'))
     .pipe(gulp.dest('../static/js/'));

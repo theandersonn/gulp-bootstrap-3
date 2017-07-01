@@ -1,5 +1,5 @@
 # Project
 *.DS_Store
-.sass-cache
-node_modules
+/gulp/sass/.sass-cache
+/gulp/node_modules/
 npm-debug.log
