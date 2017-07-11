@@ -10,8 +10,9 @@ Custom Boilerplate with common tasks in Fron-End Development.
 
 ## Libs Suggestions
 ```
-npm install owl-carousel-2@0.0.3 --save
+npm install bootstrap-sass@3.3.7 --save
 npm install fancybox@2.1.7 --save 
+npm install owl-carousel-2@0.0.3 --save
 ```
 
 ## Dependencies
