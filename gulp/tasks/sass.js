@@ -1,7 +1,6 @@
 /*--------------------------------------------------------------
-    COMPILES ALL FILES _SCSS
+    COMPILES ALL FILES _scss
 --------------------------------------------------------------*/
-// plugins
 'use strict';
 
 var gulp = require('gulp');

@@ -2,4 +2,10 @@
 *.DS_Store
 /gulp/sass/.sass-cache
 /gulp/node_modules/
-npm-debug.log
+/gulp/npm-debug.log
+
+/static/css/all.css
+/static/css/all.min.css
+
+/static/js/all.js
+/static/js/all.min.js

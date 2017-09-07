@@ -1,7 +1,6 @@
 /*--------------------------------------------------------------
     MINIFY CSS
 --------------------------------------------------------------*/
-// plugins
 var gulp 	= require('gulp');
 var cssmin 	= require('gulp-cssmin');
 var rename 	= require('gulp-rename');

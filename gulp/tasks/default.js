@@ -1,7 +1,6 @@
 /*--------------------------------------------------------------
-    PERFOMS TAKS SASS, CONCATJS AND IMAGEMIN
+    PERFOMS TAKS SASS, CONCATJS
 --------------------------------------------------------------*/
-// plugins
 var gulp = require('gulp');
 
 gulp.task('default', ['sass', 'concatjs'], function(){
