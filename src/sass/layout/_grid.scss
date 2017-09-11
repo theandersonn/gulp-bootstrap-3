@@ -1,19 +1,18 @@
-//  TYPOGRAPHY 
-// **********************************************/ 
-// @import "../../../gulp/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
-
 //
 // Grid system
 // --------------------------------------------------
+
+// @import "../../../gulp/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+
 .container {
     @include container-fixed;
     max-width: 1280px;
 }
-  
+
 .container-fluid {
    @include container-fixed;
 }
-  
+
 .row {
     @include make-row;
 }
@@ -28,7 +27,7 @@
 @media (min-width: $screen-md-min) {
     @include make-grid(md);
 }
-  
+
 @media (min-width: $screen-lg-min) {
     @include make-grid(lg);
 }
