@@ -1,3 +1,14 @@
+/*
+ * thanks to @webgefrickel -> https://gist.github.com/webgefrickel/4530526
+ *
+ * a small mixin for easy use of rem with px as fallback
+ * usage: @include x-rem(font-size, 14px)
+ * usage: @include x-rem(marign, 0 12px 2 1.2)
+ * usage: @include x-rem(padding, 1.5 24px)
+ *
+ * thanks to Eric Meyer for https://github.com/ericam/susy
+ * and Hans Christian Reinl for http://drublic.de/blog/rem-fallback-sass-less/
+ */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -584,6 +595,9 @@ address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857; }
+
+p {
+  margin-bottom: 0; }
 
 .btn {
   display: inline-block;
