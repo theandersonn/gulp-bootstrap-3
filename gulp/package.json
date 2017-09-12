@@ -14,7 +14,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp",
-    "build": "gulp cssmin && gulp jsmin"
+    "build": "gulp sass && gulp concatjs && gulp cssmin && gulp jsmin"
   },
   "author": {
     "name": "Anderson Nascimento",
