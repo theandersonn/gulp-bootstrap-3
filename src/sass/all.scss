@@ -2,24 +2,31 @@
 // All css
 // --------------------------------------------------
 
-// BASE
-@import "base/variables";
-@import "utilities/mixins";
-@import "base/reset";
-@import "base/fonts";
-@import "base/typography";
+/* settings (variables) */
+@import "1_settings/variables";
 
-// COMPONENTS
-@import "components/buttons";
-@import "components/forms";
-@import "components/navs";
+/* tools (mixins and functions) */
+@import "2_tools/mixins";
 
-// UTILITIES
-@import "utilities/utilities";
+/* generic (reset and/or normalize styles, box-sizing definition, etc.) */
+@import "3_generic/general";
+@import "3_generic/reset";
 
-// LAYOUT
-@import "layout/grid";
-@import "layout/header";
-@import "layout/footer";
-@import "layout/general";
-@import "layout/front-page";
+/* base (h1,h2,h3,p) */
+@import "4_base/animations";
+@import "4_base/fonts";
+@import "4_base/grid";
+@import "4_base/typography";
+
+/* objects (unstyled reusable) */
+@import "5_objects/buttons";
+
+/* components (styled components) */
+@import "6_components/footer";
+@import "6_components/forms";
+@import "6_components/header";
+@import "6_components/navs";
+
+/* trumps (overrides) */
+@import "7_trumps/front-page";
+@import "7_trumps/utilities";
