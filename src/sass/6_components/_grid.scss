@@ -1,9 +1,3 @@
-//
-// Grid system
-// --------------------------------------------------
-
-// @import "../../../gulp/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
-
 .container {
     @include container-fixed;
     max-width: 1280px;

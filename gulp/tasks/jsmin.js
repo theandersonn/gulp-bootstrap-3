@@ -10,5 +10,5 @@ gulp.task('jsmin', function() {
 	return gulp.src('../static/js/all.js')
 		.pipe(uglify())
 		.pipe(rename({suffix: '.min'}))
-		.pipe(gulp.dest('../static/js/'))
+		.pipe(gulp.dest('../static/js/'));
 });
