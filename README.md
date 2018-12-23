@@ -50,7 +50,6 @@ Gulp Boilerplate/
 |   ├── images/
 |   |  	├── banners/
 |   |  	├── bgs/
-|   |  	├── buttons/
 |   |  	├── general/
 |   |  	├── icons/
 |   |  	└── logotypes/
@@ -75,15 +74,6 @@ Gulp Boilerplate/
 - gulp concatjs (Concatenate all .js)
 - gulp cssmin (Minify all.css)
 - gulp jsmin (Minify all.js)
-
-**NPM Scripts**
-```bash
-# gulp sass && gulp concatjs
-npm run dev
-
-# gulp sass && gulp concatjs && gulp cssmin && gulp jsmin
-npm run build
-```
 
 ## Questions
 If you have any difficulty using the Gulp Boilerplate or would like some aspect of the current configuration, open an [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) and explain your difficulty.

@@ -1,8 +1,6 @@
 (function ( $ ) {
 	'use strict';
-
-  $(function yourFunction() {
-
-  });
+	
+	// your code here!
 
 }( jQuery ));

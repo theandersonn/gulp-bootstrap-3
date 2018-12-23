@@ -14,7 +14,7 @@ gulp.task('concatjs', function() {
       'node_modules/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
 
       // FUNCTIONS
-      '../src/js/functions/general.js'
+      '../src/js/functions/all.js'
   ])
     .pipe(concat('all.js'))
     .pipe(gulp.dest('../static/js/'));

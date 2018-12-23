@@ -1,23 +1,19 @@
-/* settings */
-@import "1_settings/1_settings";
+//
+// All css
+// --------------------------------------------------
 
-/* tools */
-@import "2_tools/2_tools";
+// Base
+@import "base/variables";
+@import "utilities/mixins";
+@import "base/reset";
+@import "base/fonts";
 
-/* generic */
-@import "3_generic/3_generic";
+// Layout
+@import "layout/header";
+@import "layout/footer";
 
-/* base */
-@import "4_base/4_base";
+// Components
+@import "components/animations";
+@import "components/grid";
 
-/* objects */
-@import "5_objects/5_objects";
-
-/* components */
-@import "6_components/6_components";
-
-/* layout */
-@import "7_layout/7_layout";
-
-/* trumps */
-@import "8_trumps/8_trumps";
+// Utilities

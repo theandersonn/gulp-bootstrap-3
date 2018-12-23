@@ -1,0 +1,48 @@
+//
+// Reset
+// --------------------------------------------------
+// @import "../../../gulp/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+// @import "../../../gulp/node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+:focus { outline: 0; }
+
+html { box-sizing: border-box; }
+
+body {
+    font-size: 16px;
+    /*font-family:;*/
+ 	line-height: 1;
+ 	/*color:;*/
+  	/*background-color:;*/
+}
+
+/*structure*/
+img { border: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
