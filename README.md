@@ -10,15 +10,15 @@ Custom Boilerplate with common tasks in Fron-End Development.
 
 ## devDependencies
 * [gulp 3.9.0](http://gulpjs.com)
-* [gulp-concat 2.6.0](https://www.npmjs.com/package/gulp-concat)
-* [gulp-cssmin 0.1.7](https://www.npmjs.com/package/gulp-cssmin)
-* [gulp-rename 1.2.2](https://www.npmjs.com/package/gulp-rename)
-* [gulp-sass 2.3.1](https://www.npmjs.com/package/gulp-sass)
-* [gulp-uglify 1.5.3](https://www.npmjs.com/package/gulp-uglify)
+* [gulp-concat 2.6.1](https://www.npmjs.com/package/gulp-concat)
+* [gulp-cssmin 0.2.0](https://www.npmjs.com/package/gulp-cssmin)
+* [gulp-rename 1.4.0](https://www.npmjs.com/package/gulp-rename)
+* [gulp-sass 4.0.2](https://www.npmjs.com/package/gulp-sass)
+* [gulp-uglify 3.0.1](https://www.npmjs.com/package/gulp-uglify)
+* [require-dir 1.2.0](https://www.npmjs.com/package/require-dir)
 
 ## Dependencies
 * Bootstrap Sass 3.3.7
-* Font Awesome 4.7.0
 * jQuery 2.2.4
 
 ## Workflow
@@ -76,7 +76,7 @@ Gulp Boilerplate/
 - gulp jsmin (Minify all.js)
 
 ## Questions
-If you have any difficulty using the Gulp Boilerplate or would like some aspect of the current configuration, open an [issue](https://github.com/theandersonn/gulp-bootstrap/issues/new) and explain your difficulty.
+If you have any difficulty using the Gulp Boilerplate or would like some aspect of the current configuration, open an [issue](https://github.com/theandersonn/gulp-bootstrap-3/issues/new) and explain your difficulty.
 
 ## License
-[MIT](https://github.com/theandersonn/gulp-bootstrap/blob/master/LICENSE.md) © [Anderson Nascimento](https://github.com/theandersonn)
+[MIT](https://github.com/theandersonn/gulp-bootstrap-3/blob/master/LICENSE.md) © [Anderson Nascimento](https://github.com/theandersonn)
