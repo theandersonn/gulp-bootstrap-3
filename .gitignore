@@ -3,6 +3,7 @@
 /gulp/sass/.sass-cache
 /gulp/node_modules/
 /gulp/npm-debug.log
+/gulp/package-lock.json
 
 /static/css/all.css
 /static/css/all.min.css
