@@ -7,11 +7,16 @@
 @import "utilities/mixins";
 @import "base/reset";
 @import "base/fonts";
+@import "base/typography";
 
-// Layout
-
+// Utilities
+@import "utilities/utilities";
 
 // Components
 @import "components/grid";
+@import "components/buttons";
+@import "components/forms";
+@import "components/navs";
+@import "components/animations";
 
-// Utilities
+// Layout
