@@ -27,6 +27,6 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
-    "jquery": "^2.2.4"
+    "jquery": "^3.4.1"
   }
 }
